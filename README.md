@@ -1,2 +1,2 @@
 # portfolio-julian-magallane-desarrollador
-Porrtfolio personal en Next
+Portfolio personal en Next
