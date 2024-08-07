@@ -1,108 +1,164 @@
-[{
-    "id": "6602ffa3a0b564d3ad9d22da",
+[
+  {
+    "id": 1,
     "title": "Cinema Review",
     "slug": "cinema-review",
-    "description": "Libreria de Peliculas",
+    "description": "Esta aplicación es una libreria de peliculas, con la funcion de crear una lista de peliculas favoritas. La app contiene un dashboard para administrar y agregar las listas de peliculas favoritas.",
     "urlGitHub": "https://github.com/Julian-Magallanes/-movie-library",
     "urlPage": " https://www.linkedin.com/feed/update/urn:li:activity:7178109000272535552/",
-    "skills": [
-       "Html" ,
-       "Css" ,
-       "Javascript",
-      "Node",
-      "Express",
-      "Bootstrap",
-      "MongoDB"
-    ],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711662548/Portfolio/trabajos/cinema_axmsg9.png"
+    "skillsFront": ["Html", "Css", "Javascript", "Bootstrap"],
+    "skillsBack": ["Node", "Express", "MongoDB"],
+    "skills": ["Figma"],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059546/Portfolio/trabajos/modeloBiblioteca_mwt45g.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723062742/Portfolio/trabajos/libreria_ah6vrp.png",
+    "urlMiro": null,
+    "urlUIKit": null
   },
   {
-    "id":"66030343a0b564d3ad9d22db",
+    "id": 2,
     "title": "Bank of Sudamerican",
     "slug": "bank-of-sudamerican",
-    "description": "App de turnos de un banco",
+    "description": "Esta aplicación es un sistema de turnos de un banco. La app contiene un dashboard para administrar y agregar turnos.",
     "urlGitHub": "https://github.com/Julian-Magallanes/appointment-management",
-    "urlPage": " ",
-    "skills": [
-      "Html",
-      "Css",
-      "Javascript",
-      "Typescript",
-      "Node",
-      "Express",
-      "PostgreSQL",
-      "React"
-    ],
+    "urlPage": null,
+    "skillsFront": ["Html", "Css", "Javascript", "React"],
+    "skillsBack": ["Typescript", "Node", "Express", "PostgreSQL"],
+    "skills": ["Figma"],
     "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711662545/Portfolio/trabajos/bank_peej9d.png"
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723062529/Portfolio/trabajos/turnero_fvhuxt.png",
+    "urlMiro": null,
+    "urlUIKit": null
   },
   {
-    "id":"6605e30134d730238add625f",
+    "id": 3,
     "title": "Rendit",
     "slug": "rendit",
-    "description": "App de calculo de materiales",
+    "description": "Esta aplicación es una calculadora de rendimientos de elementos constructivos, con elegir el sistema, agregar las medidas de por ejemplo: una pared, la aplicacion calculara la cantidad de materiales que comprar.",
     "urlGitHub": "https://github.com/Julian-Magallanes/Proyecto-Final---Javascript",
     "urlPage": "https://julian-magallanes.github.io/Proyecto-Final---Javascript/",
-    "skills": [
-      "Html",
-      "Css",
-      "Javascript"
-    ],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711661413/Portfolio/trabajos/RENDIT-03_1_fty3rx.png"
+    "skillsFront": ["Html", "Css", "Javascript"],
+    "skills": ["Figma"],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059546/Portfolio/trabajos/modeloRendit_cduaa0.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723061704/Portfolio/trabajos/rendit_jatrqu.png"
   },
   {
-    "id":"660730d9ea0c72128a0a71d7",
+    "id": 4,
     "title": "Ecommerce",
     "slug": "ecommerce",
-    "description": "Tienda de alquiler de herramientas",
+    "description": "Esta aplicación es un tienda de alquiler de herramientas, con la funcion de visualizar, agregar y completar una logica de carrito de compras.",
     "urlGitHub": "https://github.com/Julian-Magallanes/Alquiler-de-herramientas---Julian-Magallanes",
     "urlPage": "https://drive.google.com/file/d/182fyHKXt6j_QvMv1XKm2GXM0699EOyOi/view?usp=sharing",
-    "skills": [
-      "Html",
-      "Css",
-      "Bootstrap",
-      "React"
-    ],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711747932/Portfolio/trabajos/alquileer_de_herramientas_n0vzdo.png"
+    "skillsFront": ["Html", "Css", "Bootstrap", "React"],
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711747932/Portfolio/trabajos/alquileer_de_herramientas_n0vzdo.png",
+    "urlMiro": null,
+    "urlUIKit": null
   },
   {
-    "id": "662ac10b83ca6f4ae55a9899",
+    "id": 5,
     "title": "Ecommerce2",
     "slug": "ecommerce2",
-    "description": "Tienda de tecnologia",
+    "description": "Esta aplicación es un tienda de productos de tecnologia, con la funcion de visualizar, agregar y completar una logica de carrito de compras.",
     "urlGitHub": "https://github.com/Julian-Magallanes/E-commerce-Next.js",
-    "urlPage": " ",
-    "skills": [
+    "urlPage": null,
+    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Next"],
+    "skills": ["Miro", "Figma"],
+    "skillsBack": ["Typescript", "Node", "Express", "PostgreSQL"],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723062250/Portfolio/trabajos/EcommerceTec_xwas2l.png",
+    "urlMiro": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059545/Portfolio/trabajos/miroECommerce_bjdmkq.png",
+    "urlUIKit": [
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059545/Portfolio/trabajos/userFlowECommerce_zjweh8.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "ONG - Un Litro de leche Alta Gracia",
+    "slug": "ong-un-litro-de-leche-alta-gracia",
+    "description": "Pagina oficial de ONG, realizada para una asociación sin fines de lucro. Con un grupo de desarrolladores con metodolias agiles y revisiones semanales por un project manager.",
+    "urlGitHub": "https://github.com/ValentinoJCarrero/litro-ong",
+    "urlPage": "https://litro-ong.vercel.app/",
+    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Astro", "React"],
+    "skillsBack": ["Typescript", "Nest", "PostgreSQL"],
+    "skills": ["Miro", "Figma", "Vercel"],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060484/Portfolio/trabajos/modeloUnLitro1_rdvdh5.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723061956/Portfolio/trabajos/unLitro_unflpq.png",
+    "urlMiro": null,
+    "urlUIKit": [
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060799/Portfolio/trabajos/uiKit1_ifv9io.png",
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060800/Portfolio/trabajos/uiKit2_o4ohx3.png",
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060800/Portfolio/trabajos/uiKit3_a6sgcd.png"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Segimed",
+    "slug": null,
+    "description": "Pagina de segimiento medico, en donde forme parte del lado del frontend de un grupo de desarrolladores, con testeos y revisiones de medicos y pacientes.",
+    "urlGitHub": null,
+    "urlPage": "https://segimed.com/",
+    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Next"],
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723063048/Portfolio/trabajos/segimed_umqwec.png",
+    "urlMiro": null,
+    "urlUIKit": null
+  },
+  {
+    "id": 8,
+    "title": "Access Fan",
+    "slug": null,
+    "description": "Pagina de eventos para startup, en donde realice un trabajo frelance, donde me encargue de la creación de interfaces anteriormente prototipadas, optimizando tiempo y recursos y conectando con la API.",
+    "urlGitHub": null,
+    "urlPage": "https://segimed.com/",
+    "skillsFront": [
       "Html",
-      "Node.js",
-      "Express",
       "Css",
+      "AntDesign",
+      "Javascript",
       "Tailwind",
       "Next"
     ],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1714077853/Next/Sin_t%C3%ADtulo_ppof90.png"
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723063523/Portfolio/trabajos/accesFan_kxlh5h.png",
+    "urlMiro": null,
+    "urlUIKit": null
   },
   {
-    "id": "662ac10b83ca6f4ae55a9898",
-    "title": "ONG - Un Litro de leche Alta Gracia",
-    "slug": "ong-un-litro-de-leche-alta-gracia",
-    "description": "Pagina oficial de ONG",
-    "urlGitHub": "https://github.com/ValentinoJCarrero/litro-ong",
-    "urlPage": "https://litro-ong.vercel.app/",
-    "skills": [
+    "id": 9,
+    "title": "Prueba Tecnica - Secured and System",
+    "slug": "prueba-tecnica-security-and-system",
+    "description": "Prueba tecnica realizada para la empresa Secured and System, en donde realice una breve explicación de mi, con especificacion como el uso de Css Modules, que sea resposivo, entreo otras.",
+    "urlGitHub": "https://github.com/Julian-Magallanes/prueba-tecnica-security-and-system",
+    "urlPage": "https://prueba-tecnica-security-and-system-julian-magallanes.vercel.app/",
+    "skillsFront": [
       "Html",
-      "Nest",
-      "PostgreSQL",
-      "Tailwind",
-      "Astro",
-      "React",
-      "Vercel"
+      "Css",
+      "Javascript",
+      "Next"
     ],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1718065054/Portfolio/trabajos/pagina_ta6r5b.png"
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/modeloPruebaTecnicaResponsive.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/pruebaTecnica.png",
+    "urlMiro": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/modeloPruebaTecnica.png",
+    "urlUIKit": null
+  }
+  ,
+  {
+    "id": 10,
+    "title": "Rendit - App Mobile",
+    "slug": null,
+    "description": "Prueba tecnica realizada para la empresa Secured and System, en donde realice una breve explicación de mi, con especificacion como el uso de Css Modules, que sea resposivo, entreo otras.",
+    "urlGitHub": null,
+    "urlPage": null,
+    "skillsFront": [
+      "Html",
+      "Css",
+      "Javascript",
+      "Tailwind",
+      "Expo + React Native"
+    ],
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/pruebaTecnica.png",
+    "urlMiro": null,
+    "urlUIKit": null
   }
 ]

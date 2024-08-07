@@ -55,7 +55,7 @@ const Profile = () => {
               proyectos en conjunto llegan a mejores resultados.
             </p>
           </div>
-          <div className="flex flex-wrap gap-4 w-[600px] h-40 mt-6 justify-center">
+          <div className="flex flex-wrap gap-2 w-[600px] h-32 mt-6 justify-center">
             {deploy === false ? (
               <div onClick={handleDeploy}>
                 <Button
@@ -73,7 +73,7 @@ const Profile = () => {
             )}
             <Button
               title="Proyectos"
-              onClick="./proyectos"
+              onClick="./trabajos"
               color="bg-primary"
               iconLeft={<FontAwesomeIcon icon={faRocket} />}
             />
