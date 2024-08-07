@@ -14,6 +14,7 @@
       "Bootstrap",
       "MongoDB"
     ],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711662548/Portfolio/trabajos/cinema_axmsg9.png"
   },
   {
@@ -29,10 +30,11 @@
       "Javascript",
       "Typescript",
       "Node",
-      "Espress",
-      "ProgrestSQL",
+      "Express",
+      "PostgreSQL",
       "React"
     ],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711662545/Portfolio/trabajos/bank_peej9d.png"
   },
   {
@@ -47,6 +49,7 @@
       "Css",
       "Javascript"
     ],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711661413/Portfolio/trabajos/RENDIT-03_1_fty3rx.png"
   },
   {
@@ -62,6 +65,7 @@
       "Bootstrap",
       "React"
     ],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711747932/Portfolio/trabajos/alquileer_de_herramientas_n0vzdo.png"
   },
   {
@@ -76,9 +80,10 @@
       "Node.js",
       "Express",
       "Css",
-      "Taildwind",
+      "Tailwind",
       "Next"
     ],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1714077853/Next/Sin_t%C3%ADtulo_ppof90.png"
   },
   {
@@ -91,12 +96,13 @@
     "skills": [
       "Html",
       "Nest",
-      "Postgress",
-      "Taildwind",
+      "PostgreSQL",
+      "Tailwind",
       "Astro",
       "React",
       "Vercel"
     ],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1718065054/Portfolio/trabajos/pagina_ta6r5b.png"
   }
 ]

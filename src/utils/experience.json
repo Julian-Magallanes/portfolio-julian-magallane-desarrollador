@@ -1,0 +1,41 @@
+[{
+    "id":1,
+    "company":"Sigemed",
+    "position":"Frontend Developer",
+    "lacation":"Mendoza (Remoto)",
+    "date":"2024",
+    "description":"Desarrollo web en practicas profesionales para aplicación medica, donde me encargue de la creación de interfaces anteriormente prototipadas, optimizando tiempo y recursos y conectando con la API. Se desarrollo en un equipo de 10 personas mediante el uso de metodologias agiles."
+},
+{
+    "id":2,
+    "company":"Coding Ways",
+    "position":"Frontend Developer frelance",
+    "lacation":"Mendoza (Remoto)",
+    "date":"2024",
+    "description":"Desarrollo web para startup de software para aplicación de eventos, donde me encargue de la creación de interfaces anteriormente prototipadas, optimizando tiempo y recursos y conectando con la API."
+},
+{
+    "id":3,
+    "company":"Autodidacta",
+    "position":"Desarrollo web",
+    "lacation":"Mendoza",
+    "date":"2024 - actualmente",
+    "description":"Desarrollo web en proyectos personales, donde eh implementado conocimientos, testeado practicas y herramientas, ayudado a organizaciones sin fines de lucro junto a un equipo de desarrolladores, etc."
+},
+{
+    "id":4,
+    "company":"Autonomo",
+    "position":"Arquitecto",
+    "lacation":"Mendoza",
+    "date":"2020-2024",
+    "description":"Desarrolle y gestione proyectos de arquitectura para clientes y companías. Pude desarrollar soluciones innovadoras con independencia en los procesos de proyecto."
+},
+{
+    "id":5,
+    "company":"Lahuan SRL Construcciones Civiles",
+    "position":"Jefe Técnico – Empresa Constructora. ",
+    "lacation":"Mendoza",
+    "date":"2022-2024",
+    "description":"Gestiones equipos de hasta 60 personas, realice 12 obras de arquitectura e infraestructura y medie entre necesidades de la compañia y los clientes."
+}
+]

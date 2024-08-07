@@ -2,6 +2,10 @@ import Button from "@/components/Button";
 import Card from "@/components/Cards";
 import Image from "next/image";
 import jobs from "@/utils/jobs.json";
+import { FloatButton } from "antd";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 
 export default function trabajos() {
 
@@ -14,6 +18,7 @@ export default function trabajos() {
         ))}
         
         </div>
+        <Link href="https://wa.me/573104668555"><FloatButton icon={<FontAwesomeIcon icon={faWhatsapp} style={{ width: "22px", height: "22px"}}/>} style={{ width: "72px", height: "72px"}}/></Link>
     </main>
   );
 }
