@@ -34,8 +34,8 @@ const Profile = () => {
     });
   };
   return (
-    <div className="flex flex-col items-center my-40">
-      <div className="flex items-start justify-center ">
+    <div className="flex flex-col items-center my-40 max-sm:my-20">
+      <div className="flex items-start justify-center max-sm:flex-col max-sm:items-center">
         <Image
           src="https://res.cloudinary.com/dzxrc9b6o/image/upload/v1714054099/Portfolio/Tecnologias/profile_2_pvpomz.jpg"
           alt="imageProfile"
@@ -55,7 +55,7 @@ const Profile = () => {
               proyectos en conjunto llegan a mejores resultados.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2 w-[600px] h-32 mt-6 justify-center">
+          <div className="flex flex-wrap gap-2 w-full h-32 mt-6 justify-center max-sm:w-80 max-sm:h-52">
             {deploy === false ? (
               <div onClick={handleDeploy}>
                 <Button

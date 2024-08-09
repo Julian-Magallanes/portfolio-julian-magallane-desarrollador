@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         "primary": "#1E1E1E",
         "secondary": "#E0E0E0",
-        "tertiary": "#E0E0E0",
+        "tertiary": "#00cbcc",
         "customWhite": "#E0E0E0",
       },
       backgroundImage: {

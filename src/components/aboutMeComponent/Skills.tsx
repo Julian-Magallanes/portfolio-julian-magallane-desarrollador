@@ -34,10 +34,10 @@ const Skills = () => {
   return (
     <div className="text-primary">
       <h1 className="text-4xl font-bold text-center">Habilidades</h1>
-      <div className="flex">
+      <div className="flex h-auto">
         <div>
       <div className="mt-4 flex flex-col gap-2">
-        <h2 className="text-3xl font-medium text-end">Lenguajes</h2>
+        <h2 className="text-3xl font-medium text-end max-sm:text-2xl">Lenguajes</h2>
         <div className="flex flex-col gap-3">
             <div className="flex gap-2 items-center justify-end">
         <p>Javascript</p>
@@ -50,7 +50,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="mt-4 flex flex-col gap-2">
-        <h2 className="text-3xl font-medium text-end">Frontend</h2>
+        <h2 className="text-3xl font-medium text-end max-sm:text-2xl">Frontend</h2>
         <div className="flex flex-col gap-3">
         <div className="flex gap-2 items-center justify-end">
         <p className="text-end">HTML</p>
@@ -97,54 +97,80 @@ const Skills = () => {
       </div>
             
       </div>
-      <div className="bg-primary w-1 h-[800px] mx-6 mt-6"/>
+      <div className="bg-primary w-1 h-auto mx-6 mt-6"/>
       <div>
       <div className="mt-4 flex flex-col gap-2">
-        <h2 className="text-3xl font-medium">Backend</h2>
-        <div className="grid grid-cols-2 gap-3 w-14 items-center">
+        <h2 className="text-3xl font-medium max-sm:text-2xl">Backend</h2>
+        <div className="flex flex-col gap-3">
+        <div className="flex gap-2 items-center justify-start">
         <FontAwesomeIcon icon={faNode} style={{ width: "28px", height: "28px" }}  />
         <p>Node</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={expressIcon} width={26} height={26} alt="Express" />
         <p>Express</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={postgresqlIcon} width={26} height={26} alt="Postgresql" />
         <p className="text-nowrap">Postgre SQL</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={mongoIcon} width={26} height={26} alt="Mongo" />
         <p>MongoDB</p>
+        </div>
         {/*<FontAwesomeIcon icon={faDocker} style={{ width: "26px" }} />
             <Image src={nestIcon} width={26} height={26} alt="Nest" />*/}
         </div>
       </div>
       <div className="mt-4 flex flex-col gap-2">
-        <h2 className="text-3xl font-medium">Mobile</h2>
-        <div className="grid grid-cols-2 gap-3 w-40 items-center">
+        <h2 className="text-3xl font-medium max-sm:text-2xl">Mobile</h2>
+        <div className="flex flex-col gap-3">
+        <div className="flex gap-2 items-center justify-start max-sm:flex-col max-sm:items-start">
         <Image src={expoIcon} width={100} height={100} alt="Expo" />
         <p className="text-nowrap">Expo + React Native</p>
         </div>
-      </div>
-      <div className="mt-4 flex flex-col gap-2">
-        <h2 className="text-3xl font-medium">Control de version</h2>
-        <div className="grid grid-cols-2 gap-3 w-14">
-        <FontAwesomeIcon icon={faGit} style={{ width: "28px", height: "28px" }}  />
-        <p>Git</p>
-        <FontAwesomeIcon icon={faGithub} style={{ width: "28px", height: "28px" }}  />
-        <p>Github</p>
-        <FontAwesomeIcon icon={faGitlab} style={{ width: "28px", height: "28px" }} />
-        <p>Gitlab</p>
         </div>
       </div>
       <div className="mt-4 flex flex-col gap-2">
-        <h2 className="text-3xl font-medium">Herramientas</h2>
-        <div className="grid grid-cols-2 gap-4 w-14 items-center">
+        <h2 className="text-3xl font-medium max-sm:text-2xl">Control de version</h2>
+        <div className="flex flex-col gap-3">
+        <div className="flex gap-2 items-center justify-start">
+        <FontAwesomeIcon icon={faGit} style={{ width: "28px", height: "28px" }}  />
+        <p>Git</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
+        <FontAwesomeIcon icon={faGithub} style={{ width: "28px", height: "28px" }}  />
+        <p>Github</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
+        <FontAwesomeIcon icon={faGitlab} style={{ width: "28px", height: "28px" }} />
+        <p>Gitlab</p>
+        </div>
+        </div>
+      </div>
+      <div className="mt-4 flex flex-col gap-2">
+        <h2 className="text-3xl font-medium max-sm:text-2xl">Herramientas</h2>
+        <div className="flex flex-col gap-3">
+        <div className="flex gap-2 items-center justify-start">
         <Image src={trelloIcon} width={26} height={26} alt="Trello" />
         <p>Trello</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={figmaIcon} width={26} height={26} alt="Figma" />
         <p>Figma</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={miroIcon} width={26} height={26} alt="Miro" />
         <p>Miro</p> 
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={visualIcon} width={26} height={26} alt="Visual Studio" />
         <p className="text-nowrap">Visual Studio</p>
+        </div>
+        <div className="flex gap-2 items-center justify-start">
         <Image src={vercelIcon} width={26} height={26} alt="vercel" />
         <p>Vercel</p>
+        </div>
         </div>
       </div>
       </div>

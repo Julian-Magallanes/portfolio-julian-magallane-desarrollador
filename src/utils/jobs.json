@@ -1,5 +1,62 @@
 [
   {
+    "id": 6,
+    "title": "ONG - Un Litro de leche Alta Gracia",
+    "slug": "ong-un-litro-de-leche-alta-gracia",
+    "description": "Pagina oficial de ONG, realizada para una asociación sin fines de lucro. Con un grupo de desarrolladores con metodolias agiles y revisiones semanales por un project manager.",
+    "urlGitHub": "https://github.com/ValentinoJCarrero/litro-ong",
+    "urlPage": "https://litro-ong.vercel.app/",
+    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Astro", "React"],
+    "skillsBack": ["Typescript", "Nest", "PostgreSQL"],
+    "skills": ["Miro", "Figma", "Vercel"],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060484/Portfolio/trabajos/modeloUnLitro1_rdvdh5.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723164183/Portfolio/trabajos/unLitro_mvtydr.jpg",
+    "urlMiro": null,
+    "urlUIKit": [
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060799/Portfolio/trabajos/uiKit1_ifv9io.png",
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060800/Portfolio/trabajos/uiKit2_o4ohx3.png",
+      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060800/Portfolio/trabajos/uiKit3_a6sgcd.png"
+    ],
+    "favorites": true
+  },
+  {
+    "id": 7,
+    "title": "Segimed",
+    "slug": null,
+    "description": "Pagina de segimiento medico, en donde forme parte del lado del frontend de un grupo de desarrolladores, con testeos y revisiones de medicos y pacientes.",
+    "urlGitHub": null,
+    "urlPage": "https://segimed.com/",
+    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Next"],
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723063048/Portfolio/trabajos/segimed_umqwec.png",
+    "urlMiro": null,
+    "urlUIKit": null,
+    "favorites": true,
+    "NoContent": true
+  },
+  {
+    "id": 8,
+    "title": "Access Fan",
+    "slug": null,
+    "description": "Pagina de eventos para startup, en donde realice un trabajo frelance, donde me encargue de la creación de interfaces anteriormente prototipadas, optimizando tiempo y recursos y conectando con la API.",
+    "urlGitHub": null,
+    "urlPage": null,
+    "skillsFront": [
+      "Html",
+      "Css",
+      "AntDesign",
+      "Javascript",
+      "Tailwind",
+      "Next"
+    ],
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723063523/Portfolio/trabajos/accesFan_kxlh5h.png",
+    "urlMiro": null,
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
+  },
+  {
     "id": 1,
     "title": "Cinema Review",
     "slug": "cinema-review",
@@ -12,7 +69,9 @@
     "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059546/Portfolio/trabajos/modeloBiblioteca_mwt45g.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723062742/Portfolio/trabajos/libreria_ah6vrp.png",
     "urlMiro": null,
-    "urlUIKit": null
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   },
   {
     "id": 2,
@@ -27,7 +86,9 @@
     "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723038566/Portfolio/trabajos/modeloBackOfAmerica_ib7khq.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723062529/Portfolio/trabajos/turnero_fvhuxt.png",
     "urlMiro": null,
-    "urlUIKit": null
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   },
   {
     "id": 3,
@@ -39,7 +100,11 @@
     "skillsFront": ["Html", "Css", "Javascript"],
     "skills": ["Figma"],
     "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059546/Portfolio/trabajos/modeloRendit_cduaa0.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723061704/Portfolio/trabajos/rendit_jatrqu.png"
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723061704/Portfolio/trabajos/rendit_jatrqu.png",
+    "urlMiro": null,
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   },
   {
     "id": 4,
@@ -52,7 +117,9 @@
     "urlPrototype": null,
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1711747932/Portfolio/trabajos/alquileer_de_herramientas_n0vzdo.png",
     "urlMiro": null,
-    "urlUIKit": null
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   },
   {
     "id": 5,
@@ -69,59 +136,9 @@
     "urlMiro": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059545/Portfolio/trabajos/miroECommerce_bjdmkq.png",
     "urlUIKit": [
       "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723059545/Portfolio/trabajos/userFlowECommerce_zjweh8.png"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "ONG - Un Litro de leche Alta Gracia",
-    "slug": "ong-un-litro-de-leche-alta-gracia",
-    "description": "Pagina oficial de ONG, realizada para una asociación sin fines de lucro. Con un grupo de desarrolladores con metodolias agiles y revisiones semanales por un project manager.",
-    "urlGitHub": "https://github.com/ValentinoJCarrero/litro-ong",
-    "urlPage": "https://litro-ong.vercel.app/",
-    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Astro", "React"],
-    "skillsBack": ["Typescript", "Nest", "PostgreSQL"],
-    "skills": ["Miro", "Figma", "Vercel"],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060484/Portfolio/trabajos/modeloUnLitro1_rdvdh5.png",
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723061956/Portfolio/trabajos/unLitro_unflpq.png",
-    "urlMiro": null,
-    "urlUIKit": [
-      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060799/Portfolio/trabajos/uiKit1_ifv9io.png",
-      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060800/Portfolio/trabajos/uiKit2_o4ohx3.png",
-      "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723060800/Portfolio/trabajos/uiKit3_a6sgcd.png"
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Segimed",
-    "slug": null,
-    "description": "Pagina de segimiento medico, en donde forme parte del lado del frontend de un grupo de desarrolladores, con testeos y revisiones de medicos y pacientes.",
-    "urlGitHub": null,
-    "urlPage": "https://segimed.com/",
-    "skillsFront": ["Html", "Css", "Javascript", "Tailwind", "Next"],
-    "urlPrototype": null,
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723063048/Portfolio/trabajos/segimed_umqwec.png",
-    "urlMiro": null,
-    "urlUIKit": null
-  },
-  {
-    "id": 8,
-    "title": "Access Fan",
-    "slug": null,
-    "description": "Pagina de eventos para startup, en donde realice un trabajo frelance, donde me encargue de la creación de interfaces anteriormente prototipadas, optimizando tiempo y recursos y conectando con la API.",
-    "urlGitHub": null,
-    "urlPage": "https://segimed.com/",
-    "skillsFront": [
-      "Html",
-      "Css",
-      "AntDesign",
-      "Javascript",
-      "Tailwind",
-      "Next"
     ],
-    "urlPrototype": null,
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723063523/Portfolio/trabajos/accesFan_kxlh5h.png",
-    "urlMiro": null,
-    "urlUIKit": null
+    "favorites": false,
+    "NoContent": false
   },
   {
     "id": 9,
@@ -136,10 +153,13 @@
       "Javascript",
       "Next"
     ],
-    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/modeloPruebaTecnicaResponsive.png",
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/modeloPruebaTecnica.png",
     "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/pruebaTecnica.png",
-    "urlMiro": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/modeloPruebaTecnica.png",
-    "urlUIKit": null
+    "urlMiro": null,
+    "urlUIKit": null,
+    "responsive":"https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/pruebaTecnicaResponsive.png",
+    "favorites": false,
+    "NoContent": false
   }
   ,
   {
@@ -157,8 +177,10 @@
       "Expo + React Native"
     ],
     "urlPrototype": null,
-    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723068875/pruebaTecnica.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1723164182/Portfolio/trabajos/renditMobile_bg2yum.jpg",
     "urlMiro": null,
-    "urlUIKit": null
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   }
 ]

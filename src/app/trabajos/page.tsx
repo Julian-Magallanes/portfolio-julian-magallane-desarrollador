@@ -1,15 +1,17 @@
-import Button from "@/components/Button";
+
 import Card from "@/components/Cards";
-import Image from "next/image";
+
 import jobs from "@/utils/jobs.json";
 import { FloatButton } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import ButtonArrow from "@/components/ButtonArrow";
 
 export default function trabajos() {
+  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 mt-4">
       <div className="w-full flex flex-wrap justify-center gap-10">
         {jobs.map((job, index) => (
           <div key={index}>
@@ -24,6 +26,8 @@ export default function trabajos() {
                   ...(job.skillsFront || []),
                   ...(job.skillsBack || []),
                 ]}
+                favorite={job.favorites.valueOf()}
+                
               />
             ) : (
               <Card
@@ -36,22 +40,16 @@ export default function trabajos() {
                   ...(job.skillsBack || []),
                 ]}
                 after={true}
+                favorite={job.favorites.valueOf()}
+                onClick={job.urlPage || "#"}
+                noContent={job.NoContent?.valueOf()}
               />
             )}
           </div>
         ))}
       </div>
-      <Link href="https://wa.me/573104668555">
-        <FloatButton
-          icon={
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              style={{ width: "22px", height: "22px" }}
-            />
-          }
-          style={{ width: "72px", height: "72px" }}
-        />
-      </Link>
+      <a target="_blank" rel="noopener noreferrer" href="https://wa.me/573104668555"><FloatButton icon={<FontAwesomeIcon icon={faWhatsapp} style={{ width: "22px", height: "22px", color: "white"}}/>} style={{ width: "72px", height: "72px", background: "red", backgroundColor: "#3f3f3f"}}/></a>
+      <ButtonArrow/>
     </main>
   );
 }

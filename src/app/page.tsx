@@ -7,7 +7,6 @@ import Education from "@/components/aboutMeComponent/Education";
 import KnowMore from "@/components/aboutMeComponent/knowMore";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import Link from 'next/link';
 export default function Home() {
 
 
@@ -18,7 +17,7 @@ export default function Home() {
         <Education/>
         <Skills/>
         <KnowMore/>
-        <Link href="https://wa.me/573104668555"><FloatButton icon={<FontAwesomeIcon icon={faWhatsapp} style={{ width: "22px", height: "22px"}}/>} style={{ width: "72px", height: "72px"}}/></Link>
+        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/573104668555"><FloatButton icon={<FontAwesomeIcon icon={faWhatsapp} style={{ width: "22px", height: "22px", color: "white"}}/>} style={{ width: "72px", height: "72px", background: "red", backgroundColor: "#3f3f3f"}}/></a>
     </main>
   );
 }

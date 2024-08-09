@@ -7,11 +7,11 @@ const Experience = () => {
     return(
         <div className="text-primary my-40">
             <h1 className="text-4xl font-bold text-center">Experiencia</h1>
-            <div className="flex">
-            <div className="bg-primary w-1 h-[1000px] mx-6 mt-6"/>
+            <div className="flex h-auto ">
+            <div className="bg-primary w-1 h-auto mx-6 mt-6"/>
             <div className="flex flex-col gap-2 mt-4">
             {experience.map((job, index) => (
-                <div key={index} className="flex flex-col gap-2 mt-4 w-[600px]">
+                <div key={index} className="flex flex-col gap-2 mt-4 w-[600px] max-sm:w-full">
                     <h2 className="text-2xl font-medium">{job.company}</h2>
                     <p className="text-xl">{job.position}</p>
                     <div className="flex gap-2">
