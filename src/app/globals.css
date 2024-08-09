@@ -86,3 +86,7 @@ section.card {
   background-color: #1E1E1E !important;
   background: #1E1E1E !important;
 }
+:where(.css-d2lrxs).ant-float-btn-default .ant-float-btn-body {
+  background-color: #1E1E1E !important;
+  background: #1E1E1E !important;
+}
