@@ -42,11 +42,11 @@ const Profile = () => {
           alt="imageProfile"
           width={300}
           height={300}
-          className="rounded-full shadow-xl"
+          className="rounded-full shadow-xl  max-sm:mb-4"
         />
-        <div className="w-2/5 ml-6 flex flex-col items-center">
-          <div className="flex flex-col justify-center items-center">
-            <span className="text-6xl font-bold text-center max-sm:text-5xl">
+        <div className="w-2/5 ml-6 flex flex-col items-center max-sm:ml-0">
+          <div className="flex flex-col justify-center items-center ">
+            <span className="text-6xl font-bold text-center max-sm:text-5xl ">
               Hola soy Julian Magallanes.
             </span>
             <div className="bg-primary h-1 w-40 my-6" />

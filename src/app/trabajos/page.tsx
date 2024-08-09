@@ -49,7 +49,7 @@ export default function trabajos() {
           </div>
         ))}
       </div>
-      <h2 className="text-lg font-medium mt-2" >Quieres ver el repositorio de este proyecto</h2>
+      <h2 className="text-lg font-medium mt-2 text-center" >Quieres ver el repositorio de este proyecto</h2>
       <div className="flex flex-col  justify-center mt-2">
 
         <ButtonRedirect title="Ver repositorio" color="bg-primary" onClick="https://github.com/Julian-Magallanes/portfolio-julian-magallane-desarrollador" iconLeft={<FontAwesomeIcon icon={faGithub} style={{width:"20px", height:"20px"}}/>}/>
