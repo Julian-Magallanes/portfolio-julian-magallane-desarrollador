@@ -49,8 +49,8 @@ const Card: React.FC<CardProps> = ({
         <p className="text-lg font-medium my-4 max-sm:hidden">Tecnologias usadas:</p>
         <ul className="flex flex-wrap gap-2 max-sm:hidden">
             
-            {skills.map((skill) => (
-                <li className="text-xs">{` ${skill} `}</li>
+            {skills.map((skill, index) => (
+                <li key={index} className="text-xs">{` ${skill} `}</li>
             ))}
         </ul>
       </div>
