@@ -40,9 +40,9 @@ export default function trabajo({ params }: { params: { slug: string } }) {
             {job[0].urlUIKit && 
             <>
             <h1 className="text-2xl font-medium">UI Kit - diseño de prototipo de componenetes.</h1>
-            <div className="flex gap-5 px-10 max-sm:flex-col">
+            <div className="flex gap-5 px-10 max-sm:flex-col justify-center">
             {job[0].urlUIKit.map ((url, index) => 
-                <Image key={index} src={url} width={1000} height={1000} alt={job[0].title} className="w-1/3 max-sm:w-full"/>
+                <Image key={index} src={url} width={1000} height={1000} alt={job[0].title} className="w-1/3 max-sm:w-full "/>
             )}</div></>}
             
             {job[0].urlMiro && <Image src={job[0].urlMiro} width={1000} height={1000} alt={job[0].title}/>}

@@ -15,6 +15,7 @@ import {
   faPlus,
   faRocket,
 } from "@fortawesome/free-solid-svg-icons";
+import ButtonRedirect from "../ButtonRedirect";
 
 const Profile = () => {
   const [deploy, setDeploy] = useState(false);
@@ -45,11 +46,11 @@ const Profile = () => {
         />
         <div className="w-2/5 ml-6 flex flex-col items-center">
           <div className="flex flex-col justify-center items-center">
-            <span className="text-6xl font-bold text-center">
+            <span className="text-6xl font-bold text-center max-sm:text-5xl">
               Hola soy Julian Magallanes.
             </span>
             <div className="bg-primary h-1 w-40 my-6" />
-            <p className="text-2xl font-medium text-center">
+            <p className="text-2xl font-medium text-center max-sm:text-xl">
               Soy Full Stack Developer, especializado en el Frontend de las
               aplicaciones web. Me gusta el trabajo en equipo, creo que los
               proyectos en conjunto llegan a mejores resultados.
@@ -77,7 +78,7 @@ const Profile = () => {
               color="bg-primary"
               iconLeft={<FontAwesomeIcon icon={faRocket} />}
             />
-            <Button
+            <ButtonRedirect
               title="GitHub"
               onClick="https://github.com/Julian-Magallanes"
               color="bg-primary"
@@ -85,19 +86,19 @@ const Profile = () => {
             />
             {(deploy === true) && (
               <>
-                <Button
+                <ButtonRedirect
                   title="Linkedln"
                   onClick="https://www.linkedin.com/in/juli%C3%A1n-magallanes-2b074a187/"
                   color="bg-primary"
                   iconLeft={<FontAwesomeIcon icon={faLinkedin} />}
                 />
-                <Button
+                <ButtonRedirect
                   title="Curriculum"
                   onClick="https://drive.google.com/file/d/1qqwlBmmD4hBEeEg3CHmNxdhDRE3s1DHF/view?usp=drive_link"
                   color="bg-primary"
                   iconLeft={<FontAwesomeIcon icon={faFile} />}
                 />
-                <Button
+                <ButtonRedirect
                   title="Whatsapp"
                   onClick="https://wa.me/542613012708"
                   color="bg-primary"

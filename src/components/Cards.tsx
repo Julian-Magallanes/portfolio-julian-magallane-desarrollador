@@ -34,9 +34,12 @@ const Card: React.FC<CardProps> = ({
   return (
     <section
       onClick={() => {
-        router.push(onClick);
+        noContent === true ?
+         
+        window.open(onClick):
+        router.push(onClick)
       }}
-      className={`card rounded-xl w-[380px] h-[200px] lg:w-[500px] lg:h-[300px] relative flex justify-center items-center shadow-2xl hover:shadow-2xl hover:scale-105 cursor-pointer ease-in bg-slate-500`}
+      className={`card rounded-xl w-[340px] h-[200px] lg:w-[500px] lg:h-[300px] relative flex justify-center items-center shadow-2xl hover:shadow-2xl hover:scale-105 cursor-pointer ease-in bg-slate-500`}
     >
         {after && noContent === false && <p className="font-bold text-lg absolute bottom-2 left-2 text-red-600 px-2"> <FontAwesomeIcon icon={faScrewdriverWrench} style={{width: "18px", height: "18px", color: "#dc2626"}} className="mr-2"/>En Construcción</p>}
         {favorite && <p className="font-bold text-lg absolute bottom-2 left-2 text-tertiary px-2 "><FontAwesomeIcon icon={faStar} style={{width: "18px", height: "18px", color: "#00cbcc"}} className="mr-2"/>Destacado</p>}

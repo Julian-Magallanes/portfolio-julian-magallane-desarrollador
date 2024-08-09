@@ -17,7 +17,7 @@ export default function Home() {
         <Education/>
         <Skills/>
         <KnowMore/>
-        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/573104668555"><FloatButton icon={<FontAwesomeIcon icon={faWhatsapp} style={{ width: "22px", height: "22px", color: "white"}}/>} style={{ width: "72px", height: "72px", background: "red", backgroundColor: "#3f3f3f"}}/></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/573104668555"><FloatButton icon={<FontAwesomeIcon icon={faWhatsapp} style={{ width: "22px", height: "22px", color: "white"}}/>} style={{ width: "72px", height: "72px", background: "#3f3f3f", backgroundColor: "#3f3f3f"}}/></a>
     </main>
   );
 }
