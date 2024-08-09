@@ -56,7 +56,7 @@ const Profile = () => {
               proyectos en conjunto llegan a mejores resultados.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2 w-full h-32 mt-6 justify-center max-sm:w-80 max-sm:h-52">
+          <div className={`flex flex-wrap gap-2 w-full h-32 mt-6 justify-center max-sm:w-80 max-sm:${deploy ? "h-52" : "h-32"}`}>
             {deploy === false ? (
               <div onClick={handleDeploy}>
                 <Button
@@ -110,7 +110,7 @@ const Profile = () => {
         </div>
       </div>
       <div
-        className="mt-6 w-16 h-16 animate-bounce cursor-pointer"
+        className="mt-10 w-16 h-16 animate-bounce cursor-pointer"
         onClick={scrollDownInterests}
       >
         <FontAwesomeIcon
