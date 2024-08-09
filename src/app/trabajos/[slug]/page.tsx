@@ -53,11 +53,14 @@ export default function trabajo({ params }: { params: { slug: string } }) {
             <Image src={job[0].urlPrototype} width={1000} height={1000} alt={job[0].title} className="w-2/3 max-sm:w-full"/>
             </>
             }
+            <div className="flex h-auto ">
+            
+            <div className="bg-gradient-to-b from-transparent to-tertiary px-[3px] h-auto mx-6 mt-6"/>
+            <ul className="flex flex-col gap-3 mt-3 rounded-3xl">
             <h2 className="text-2xl font-semibold">Tecnologias utilizadas</h2>
-            <ul className="flex flex-col gap-3 mt-3 border border-primary px-20 py-10 rounded-3xl">
             {job[0].skills &&
             <>
-                <h1 className="text-xl font-medium">Herramientas Utilizadas</h1>
+                <h1 className="text-xl font-medium text-gray-600">Herramientas Utilizadas</h1>
             {job[0].skills?.map ((skill, index) => (
                 
                 <li key={index} className="flex gap-2 items-center">
@@ -75,7 +78,7 @@ export default function trabajo({ params }: { params: { slug: string } }) {
             ))}</>}
             {job[0].skillsFront && 
             <>
-            <h1 className="text-xl font-medium">Tecnologias utilizadas en el Frontend</h1>
+            <h1 className="text-xl font-medium text-gray-600">Tecnologias utilizadas en el Frontend</h1>
             {job[0].skillsFront.map ((skill, index) => (
                 
                 <li key={index} className="flex gap-2 items-center">
@@ -98,7 +101,7 @@ export default function trabajo({ params }: { params: { slug: string } }) {
             ))}</>}
             {job[0].skillsBack &&
             <>
-            <h1 className="text-xl font-medium">Tecnologias utilizadas en el Backend</h1>
+            <h1 className="text-xl font-medium text-gray-600">Tecnologias utilizadas en el Backend</h1>
             {job[0].skillsBack?.map ((skill, index) => (
                 
                 <li key={index} className="flex gap-2 items-center">
@@ -116,6 +119,7 @@ export default function trabajo({ params }: { params: { slug: string } }) {
                 </li>
             ))}</>}
             </ul>
+            </div>
         </div>
         <ButtonArrow/>
     </main>

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Button from "../Button"
 const Education = () => {
     return(
-        <div className="text-primary my-40">
+        <div className="text-primary mb-40">
             
             <div className="flex h-auto">
             
