@@ -18,6 +18,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
 #navbar{
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
