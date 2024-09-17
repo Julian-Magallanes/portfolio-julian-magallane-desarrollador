@@ -182,5 +182,26 @@
     "urlUIKit": null,
     "favorites": false,
     "NoContent": false
+  },
+  {
+    "id": 11,
+    "title": "La Esmeralda Cafe - Ecommerce",
+    "slug": "la-esmeralda-cafe",
+    "description": "Trabajo freelance realizado para la empresa La Esmeralda Cafe, en donde me encarge de la parte del frontend, utilizando Next, Tailwind, y librerias para chatbot, entre otras.",
+    "urlGitHub": "https://github.com/PatricioCalatayud/Cafe-la-esmeralda",
+    "urlPage": "https://cafe-la-esmeralda.vercel.app/",
+    "skillsFront": [
+      "Html",
+      "Css",
+      "Javascript",
+      "Tailwind",
+      "Next"
+    ],
+    "urlPrototype": null,
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1726611128/Portfolio/trabajos/cda4f4fb-fafa-4afd-b3c3-0daa583b35c6.png",
+    "urlMiro": null,
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   }
 ]
