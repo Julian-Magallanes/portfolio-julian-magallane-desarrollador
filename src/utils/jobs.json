@@ -203,5 +203,29 @@
     "urlUIKit": null,
     "favorites": false,
     "NoContent": false
+  },
+  {
+    "id": 12,
+    "title": "Jupiter Design - Pagina de Agencia de diseño",
+    "slug": "jupiter-design",
+    "description": "Trabajo realizado para la agencia de diseño Jupiter Design, en donde me encarge de la parte del frontend, utilizando Astro y Tailwind.",
+    "urlGitHub": "https://github.com/JupiterDesing/pagina-personala",
+    "urlPage": "https://www.jupiterdesign.com.ar/",
+    "skillsFront": [
+      "Html",
+      "Css",
+      "Javascript",
+      "Tailwind",
+      "Astro",
+      "AntDesign",
+      "React"
+    ],
+    "skills": [ "Figma", "Vercel"],
+    "urlPrototype": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1727218288/Portfolio/trabajos/Group_11_fu8lpm.png",
+    "urlImage": "https://res.cloudinary.com/dzxrc9b6o/image/upload/v1727218207/Portfolio/trabajos/91f43b2a-bbdc-49f3-bd87-8d9e8848980e.png",
+    "urlMiro": null,
+    "urlUIKit": null,
+    "favorites": false,
+    "NoContent": false
   }
 ]
