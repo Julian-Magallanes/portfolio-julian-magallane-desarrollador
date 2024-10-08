@@ -9,6 +9,7 @@ import {
   faNode,
   faReact,
   faSass,
+  faShopify,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import astroIcon from "@/assets/astro.svg";
@@ -129,6 +130,20 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="mt-4 flex flex-col gap-2">
+            <h2 className="text-3xl font-medium text-end max-sm:text-2xl text-gray-600">
+              No-Code
+            </h2>
+            <div className="flex flex-col gap-3">
+              <div className="flex gap-2 items-center justify-end">
+                <p className="text-end">Shopify</p>
+                <FontAwesomeIcon
+                  icon={faShopify}
+                  style={{ width: "28px", height: "28px" }}
+                />
+              </div>
+              </div>
+              </div>
         </div>
         <div className="bg-gradient-to-b from-transparent to-tertiary px-[3px] h-auto mx-6 mt-6" />
         <div>
